@@ -8,6 +8,7 @@
     "build": "env NODE_ENV=production webpack",
     "lint": "npx eslint src/**/*.js",
     "prettier": "npx prettier --write .",
+    "start": "webpack server",
     "dev": "npx webpack server",
     "prepare": "husky install"
   },
