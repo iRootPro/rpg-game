@@ -26,15 +26,14 @@ const keyDownHandler = (e) => {
 };
 
 const keyUpHandler = (e) => {
-  if (
-    e.key === 'Down' ||
-    e.key === 'ArrowDown' ||
-    e.key === 'Up' ||
-    e.key === 'ArrowUp' ||
-    e.key === 'Right' ||
-    e.key === 'ArrowRight' ||
-    e.key === 'Left' ||
-    e.key === 'ArrowLeft'
+  if (e.key === 'Down'
+      || e.key === 'ArrowDown'
+      || e.key === 'Up'
+      || e.key === 'ArrowUp'
+      || e.key === 'Right'
+      || e.key === 'ArrowRight'
+      || e.key === 'Left'
+      || e.key === 'ArrowLeft'
   ) {
     pressedKey = null;
   }
