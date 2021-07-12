@@ -48,7 +48,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    port: 3005,
+    port: 3000,
     overlay: true,
     open: true,
     hot: true,
